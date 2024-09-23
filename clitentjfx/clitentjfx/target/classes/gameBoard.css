@@ -1,0 +1,48 @@
+#name {
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+}
+
+#board {
+    -fx-border-color: #5F6EB3;
+    -fx-border-width: 0.5;
+}
+
+#offButton {
+    -fx-shape: "m 20 1 l 0 10 l -10 0 l 0 10 l 10 0 l 0 10 l 10 0 l 0 -10 l 10 0 l 0 -10 l -10 0 l 0 -10 z ";
+    -fx-border-width: 10px;
+}
+
+#exitButton:hover {
+    -fx-background-color: #5F6EB3;
+}
+
+#exitButton:pressed {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+}
+
+#exitButton {
+    -fx-background-color: #8A97D3;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-font-size:15;
+    -fx-font-weight: bold;
+    -fx-border-color: #5F6EB3;
+    -fx-border-width: 2;
+    -fx-text-fill: #DAF0F8;
+    -fx-pref-width: 220px;
+}
+.root   {
+    -fx-background-color: lightblue;
+    -fx-font-family: "Century Gothic";
+}
+
+.button {
+    -fx-max-width: 110px;
+    -fx-max-height: 110px;
+    /*-fx-min-width: 40px;*/
+    /*-fx-min-height: 40px;*/
+    -fx-pref-height: 110px;
+    -fx-pref-width: 110px;
+}
