@@ -1,0 +1,20 @@
+finfo
+mkdir a1
+info a1
+mkdir a2
+info a2
+rmdir a1
+finfo
+incp files/file1.txt .
+finfo
+incp files/filedlouhy.txt a2
+ls a2
+info a2/filedlouhy.txt
+cat a2/filedlouhy.txt
+finfo
+rm file1.txt
+finfo
+defrag
+finfo
+cat a2/filedlouhy.txt
+outcp a2/filedlouhy.txt .

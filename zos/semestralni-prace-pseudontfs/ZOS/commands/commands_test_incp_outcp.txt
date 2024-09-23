@@ -1,0 +1,9 @@
+mkdir a
+mkdir b
+incp files/file1.txt .
+rmdir b
+incp files/filedlouhy.txt .
+cat file1.txt
+cat filedlouhy.txt
+outcp file1.txt .
+outcp filedlouhy.txt .

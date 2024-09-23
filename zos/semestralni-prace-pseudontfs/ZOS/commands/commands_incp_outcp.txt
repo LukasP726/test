@@ -1,0 +1,8 @@
+incp file/filedlouhy.txt .
+incp files/filedlouhy.txt .
+mkdir incp 
+incp files/file1.txt incp
+outcp incp/file1.txt .
+outcp filedlouhy.txt .
+finfo
+quit
